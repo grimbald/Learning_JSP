@@ -1,3 +1,4 @@
+<%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="mta" uri="./WEB-INF/myTag.tld"%>
@@ -10,5 +11,6 @@
 <body>
 	<h1>Test of JSP custom tag</h1>
 	<mta:myTag customString="Ha ha ha!"/>
+	<mta:header date="<%= new Date(System.currentTimeMillis()).toString() %>">heheszki</mta:header>
 </body>
 </html>

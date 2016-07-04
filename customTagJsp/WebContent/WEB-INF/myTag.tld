@@ -16,4 +16,16 @@
 			<required>false</required>
 		</attribute>
 	</tag>
+	
+	<tag>
+		<name>header</name>
+		<tagclass>com.gowor.DateAsTableHeader</tagclass>
+		<bodycontent>JSP</bodycontent>
+		<info></info>
+		<attribute>
+			<name>date</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
 </taglib>
