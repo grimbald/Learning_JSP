@@ -28,4 +28,16 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 	</tag>
+	
+	<tag>
+		<name>lista</name>
+		<tagclass>com.gowor.Lista</tagclass>
+		<bodycontent>JSP</bodycontent>
+	</tag>
+	
+	<tag>
+		<name>pozycja</name>
+		<tagclass>com.gowor.Pozycja</tagclass>
+		<bodycontent>JSP</bodycontent>
+	</tag>
 </taglib>

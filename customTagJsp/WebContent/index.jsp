@@ -12,5 +12,10 @@
 	<h1>Test of JSP custom tag</h1>
 	<mta:myTag customString="Ha ha ha!"/>
 	<mta:header date="<%= new Date(System.currentTimeMillis()).toString() %>">heheszki</mta:header>
+	
+	<mta:lista>
+		<mta:pozycja>jeden</mta:pozycja>
+		<mta:pozycja>dwa</mta:pozycja>
+	</mta:lista>
 </body>
 </html>
