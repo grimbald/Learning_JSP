@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-2" ?>
+<taglib>
+	<tlibversion>1.1</tlibversion>
+	<jspversion>1.1</jspversion>
+	<shortname>mta</shortname>
+	<uri></uri>
+	<info>Just my simple tag</info>
+	
+	<tag>
+		<name>myTag</name>
+		<tagclass>com.gowor.MyTag</tagclass>
+		<bodycontent>EMPTY</bodycontent>
+		<info>My jsp tag crating H2 with given String</info>
+		<attribute>
+			<name>customString</name>
+			<required>false</required>
+		</attribute>
+	</tag>
+</taglib>
